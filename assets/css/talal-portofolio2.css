@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../imgs/BG.gif);
+
+  /* for firefox scroll */
+  scrollbar-width: thin;
+  scrollbar-color: #fdfef9;
+  scrollbar-gutter: stable;
+  /* for firefox scroll */
+}
+
+/* for scroll */
+body::-webkit-scrollbar {
+  width: 2px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 50%;
+  background-color: #fdfef9;
+}
+
+body::-webkit-scrollbar-button {
+  display: none;
+}
+/* for scroll */
+
+ul {
+  list-style: none;
+}
+
+
+/* Start Navbar */
+  .navbar {
+    transition: .3s;
+    /* background-color: rgba(0, 0, 0, 0.8) !important; */
+  }
+
+  .logo {
+    letter-spacing: 7px;
+  }
+  
+  .page-links {
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+/* End Navbar */
+
+/* Start main */
+
+.img-of-works {
+  height: 200px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: .5s;
+}
+
+.row .row div:nth-child(1) .img-of-works {
+  background-image: url(../imgs/xanado.png);
+}
+.row .row div:nth-child(2) .img-of-works {
+  background-image: url(../imgs/Reverse-Vending.png);
+}
+.row .row div:nth-child(3) .img-of-works {
+
+  background-image: url(../imgs/Nexa-Zadsource.png);
+}
+.row .row div:nth-child(4) .img-of-works {
+
+  background-image: url(../imgs/Nexa-ExploreTECH.png);
+}
+.row .row div:nth-child(5) .img-of-works {
+  background-image: url(../imgs/Emirates-NBD-Beyond-Rewards.png);
+}
+.row .row div:nth-child(6) .img-of-works {
+    background-image: url(../imgs/Emirates-NBD-Beyond-Rewards2.png);
+}
+.row .row div:nth-child(7) .img-of-works {
+  background-image: url(../imgs/Abu-Dhabi-Arabic-Language-Center.png);
+}
+.row .row div:nth-child(8) .img-of-works {
+  background-image: url(../imgs/Nexa-SEO.png);
+}
+.row .row div:nth-child(9) .img-of-works {
+  background-image: url(../imgs/Syrian-electronic-market.png);
+}
+.row .row div:nth-child(10) .img-of-works {
+  background-image: url(../imgs/Oxygen-2.png);
+}
+.row .row div:nth-child(11) .img-of-works {
+  background-image: url(../imgs/Sketchtoon.png);
+}
+.row .row div:nth-child(12) .img-of-works {
+  background-image: url(../imgs/Mixel’s-anniversary.png);
+}
+.row .row div:nth-child(13) .img-of-works {
+  background-image: url(../imgs/My-dream-with-spacetoon.png);
+}
+/* .row .row div:nth-child(14) .img-of-works {
+  background-image: url(../imgs/Bank-Muscat-Theemar.png);
+}
+.row .row div:nth-child(15) .img-of-works {
+  background-image: url(../imgs/Motion-Reel-2018.png);
+}
+.row .row div:nth-child(16) .img-of-works {
+  background-image: url(../imgs/RTA-New-Vehicle-Reg.png);
+}
+.row .row div:nth-child(17) .img-of-works {
+  background-image: url(../imgs/Sanad.png);
+}
+.row .row div:nth-child(18) .img-of-works {
+  background-image: url(../imgs/Talal-Dakkak-Motion-Graphics-Reel-2017.png);
+}
+.row .row div:nth-child(19) .img-of-works {
+  background-image: url(../imgs/Tatweer-ADM-Drone.png);
+} */
+
+.img-of-works:hover {
+  box-shadow: 0 0 1000px -50px #818181;
+}
+
+.img-of-works:hover .overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.category {
+  font-size: 14px !important;
+  color: #818181;
+}
+
+.div-of-video {
+  height: 101vh !important;
+  position: fixed !important;
+  top: -100vh !important;
+  transform: translateY(98.9%) !important;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.div-of-video iframe {
+  width: 90% !important;
+  height: 90% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+/* End main */
+
+/* Start footer */
+footer p {
+  color: #616161;
+  letter-spacing: 2px;
+}
+/* End footer */
+
+/* Start about */
+.h2 {
+  color: #818181;
+  letter-spacing: 2px;
+}
+
+/* footer */
+.about-footer span {
+  height: 2px;
+}
+
+.about-footer span span {
+  background-color: #818181;
+}
+
+.about-footer .h2 {
+  font-size: 16px !important;
+}
+
+.about-footer .h2 ~ p {
+  font-size: 18px !important;
+}
+/* footer */
+
+/* End about */
